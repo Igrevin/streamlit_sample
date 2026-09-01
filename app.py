@@ -37,7 +37,7 @@ with st.bottom:
     st.header("相關資訊")
     st.write("相關資訊內容")
 
-
+"""
 user=st.text_input("帳號")
 passwd=st.text_input("密碼",type="password")
 
@@ -99,3 +99,4 @@ if st.button("存在與否", type="secondary"):
             conn.close()
 
 #print(os.getenv("PASSWORD"))
+"""
