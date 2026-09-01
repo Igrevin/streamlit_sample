@@ -1,0 +1,20 @@
+[project]
+name = "streamlit-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Igrevin", email = "kevin0427065582@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mariadb>=1.1.14",
+    "streamlit>=1.62.0",
+]
+
+[project.scripts]
+streamlit-sample = "streamlit_sample:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
