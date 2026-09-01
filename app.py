@@ -1,6 +1,6 @@
 import streamlit as st
-import mariadb
-import os
+#import mariadb
+#import os
 
 st.title("streamlit web testing")
 st.header("header")
